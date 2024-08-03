@@ -8,6 +8,9 @@ Features
 1. Create Task: Users can add new tasks to their to-do list.
 2. Assign Task: Users can assign a name to each task.
 3. Delete Task: Users can delete tasks from their to-do list.
+4. Eisenhower Matrix: The app includes a feature to display tasks in an Eisenhower Matrix, helping users prioritize tasks based on urgency and importance.
+5. MyTasks Button: Users can view their own tasks by clicking the "MyTasks" button, which filters the task list to show only their tasks.
+
 =======
 # Getting Started with Create React App
 
