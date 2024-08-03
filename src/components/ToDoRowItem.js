@@ -15,6 +15,10 @@ function ToDoRowItem(props) {
             <th scope='row'>{props.rowNumber}</th>
             <td>{props.rowDescription}</td>
             <td>{props.rowAssigned}</td>
+            <td>{props.rowTag}</td>
+            <td>
+                <button onClick={(e) => {e.stopPropagation(); setShowPopup(true);}}>Actions</button>
+            </td>
         </tr>
         {showPopup && (
             <div className="popup">

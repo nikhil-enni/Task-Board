@@ -1,0 +1,34 @@
+.card-header {
+    font-size: 1.2em;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .list-group-item {
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .list-group-item:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list-group-item span {
+    display: block;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  
